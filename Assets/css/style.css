@@ -1,0 +1,16 @@
+body {
+    color: whitesmoke;
+    background-color: black;
+    background-image: url("../images/Stranger_things_background.jpg")!important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.containerbottom {
+    background-color: gray;
+    opacity: .5;
+}
+
+#chances-left, #wins, #losses {
+    opacity: 1;
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Stranger Things!</title>
+  </head>
+  <body class="image">
+<div class="jumbotron-fluid background">
+    <div class="container py-5">
+        <div class="row align-items-center">         
+          <image class="image-responsive-item" src="Assets/images/Stranger_title.jpg"></image>
+        <div class="col-12 col-md-8 my-3">
+          <div class="image-responsive-16by9 py-5">
+            <h1>Word Guess!</h1>
+            <h3 id="smaller">If you lose, you'll be stuck in the Upside-Down!</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 my-3">
+          <h3>Be careful in the Upside Down...</h3>
+          <button id="new-game-button">
+            <i class="fas fa-gamepad">Start Over? </i>
+          </button>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 text-center py-5" id="placeholder-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 my-3">
+            <h2> Hurry! Guess to Escape!
+              <br/>
+              <span id="placeholders">____ ____ ____</span>
+            </h2>              
+          </div>
+          <div class="col-12 col-md-6 my-3">
+            <h2>Missed Letters </h2>
+              <span id="guessed-letters"></span>                
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="containerbottom">
+    <div class="row">
+      <div class="col-12 col-md-4 text-center py-5">
+        <h3>
+          Chances Left: <span id="guesses-left">0</span>
+        </h3>
+      </div>
+      <div class="col-12 col-md-4 text-center py-5">
+        <h3>
+          Escapes: <span id="wins">0</span>
+        </h3>
+      </div>
+      <div class="col-12 col-md-4 text-center py-5">
+        <h3>
+          Demogorgon Bait: <span id="losses">0</span>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="Assets/javascript/game.js"></script>
+  </body>
+
+</html>
