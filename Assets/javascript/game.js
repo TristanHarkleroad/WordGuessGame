@@ -34,7 +34,7 @@ function newGame() {
             underScore.push(" ");
         } 
         else { 
-            underScore.push("_");
+            underScore.push(" _ ");
         }
     }
 
